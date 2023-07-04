@@ -1,4 +1,5 @@
-#HSV Wheel Color Picker by SwiftUI
+# HSV Wheel Color Picker by SwiftUI
+
 [![os](https://img.shields.io/badge/-mobile-%230175C2)](https://github.com/huynguyenngocdev)
 [![os](https://img.shields.io/badge/-iOS-orange)](https://github.com/huynguyenngocdev)
 [![framework](https://img.shields.io/badge/-Swift-%230175C2)](https://github.com/huynguyenngocdev)
@@ -9,6 +10,9 @@
 
 This is a project to build a Wheel Color Picker using SwiftUI.
 Feel free to get my code but please give me a star
+
+## DEMO
+![demo](https://github.com/huynguyenngocdev/SwiftUI-HSV-Wheel-Color-Picker/blob/master/Demo%20Images/demo.gif)
 
 ## Contact: Nguyen Ngoc Huy
 - Email &lt;[huynguyenngoc.dev@gmail.com](huynguyenngoc.dev@gmail.com)&gt;

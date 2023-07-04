@@ -14,6 +14,8 @@
 		8497AC402A527DCC005491C5 /* CGFloat+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497AC3F2A527DCC005491C5 /* CGFloat+Extention.swift */; };
 		8497AC422A527DF5005491C5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497AC412A527DF5005491C5 /* Utils.swift */; };
 		8497AC462A528588005491C5 /* RBGModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8497AC452A528588005491C5 /* RBGModel.swift */; };
+		84FFF58A2A5428410038607C /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFF5892A5428410038607C /* ColorPicker.swift */; };
+		84FFF58C2A542A530038607C /* BrightnessSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FFF58B2A542A530038607C /* BrightnessSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		8497AC3F2A527DCC005491C5 /* CGFloat+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extention.swift"; sourceTree = "<group>"; };
 		8497AC412A527DF5005491C5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		8497AC452A528588005491C5 /* RBGModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBGModel.swift; sourceTree = "<group>"; };
+		84FFF5892A5428410038607C /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		84FFF58B2A542A530038607C /* BrightnessSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 		8497AC302A527AFC005491C5 /* HSV Wheel Color Picker */ = {
 			isa = PBXGroup;
 			children = (
+				84FFF5882A5428100038607C /* Components */,
 				8497AC442A52852A005491C5 /* Utils+Extention */,
 				8497AC432A52851D005491C5 /* Models */,
 				8497AC312A527AFC005491C5 /* HSV_Wheel_Color_PickerApp.swift */,
@@ -92,6 +97,15 @@
 			path = "Utils+Extention";
 			sourceTree = "<group>";
 		};
+		84FFF5882A5428100038607C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				84FFF5892A5428410038607C /* ColorPicker.swift */,
+				84FFF58B2A542A530038607C /* BrightnessSlider.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,7 +134,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					8497AC2D2A527AFC005491C5 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -164,9 +178,11 @@
 			files = (
 				8497AC402A527DCC005491C5 /* CGFloat+Extention.swift in Sources */,
 				8497AC342A527AFC005491C5 /* ContentView.swift in Sources */,
+				84FFF58C2A542A530038607C /* BrightnessSlider.swift in Sources */,
 				8497AC322A527AFC005491C5 /* HSV_Wheel_Color_PickerApp.swift in Sources */,
 				8497AC462A528588005491C5 /* RBGModel.swift in Sources */,
 				8497AC422A527DF5005491C5 /* Utils.swift in Sources */,
+				84FFF58A2A5428410038607C /* ColorPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +225,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -269,6 +286,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
